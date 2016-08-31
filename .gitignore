@@ -23,3 +23,10 @@ project/plugins/project/
 # ENSIME specific
 .ensime_cache/
 .ensime
+.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml
+.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_8_jar.xml
+.idea/libraries/SBT__org_scalactic_scalactic_2_11_3_0_0_jar.xml
+.idea/libraries/SBT__org_scalatest_scalatest_2_11_3_0_0_jar.xml
+.idea/modules/reactive-kafka-example0830-build.iml
+.idea/modules/reactive-kafka-example0830.iml
+.idea/vcs.xml
