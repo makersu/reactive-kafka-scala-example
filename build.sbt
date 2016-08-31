@@ -2,9 +2,16 @@ name := """reactive-kafka-example"""
 
 version := "1.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.8"
+
+val akkaVersion = "2.4.9"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.3.11",
-  "com.typesafe.akka" %% "akka-testkit" % "2.3.11" % "test",
+  "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+  "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
   "org.scalatest" %% "scalatest" % "2.2.4" % "test")
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-stream-kafka" % "0.11-RC1"
+)
+
