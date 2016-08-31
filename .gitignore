@@ -20,6 +20,8 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 
+/.idea
+
 # ENSIME specific
 .ensime_cache/
 .ensime
@@ -30,3 +32,4 @@ project/plugins/project/
 .idea/modules/reactive-kafka-example0830-build.iml
 .idea/modules/reactive-kafka-example0830.iml
 .idea/vcs.xml
+
