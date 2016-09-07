@@ -1,6 +1,7 @@
 reactive-kafka-scala-example
 =========================
 reactive-kafka examples in scala
+Akka Streams Kafka: http://doc.akka.io/docs/akka-stream-kafka/current/home.html
 
 ### Install Kafka on OSX
 ```
